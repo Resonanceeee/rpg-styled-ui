@@ -41,7 +41,7 @@
 
 #sidebar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
     right: 0px;
@@ -171,7 +171,7 @@
 
 #chat-log .message {
     position: relative;
-    color: #837360;
+    color: #d4d1c3;
     border: none !important;
     background: none !important;
     padding: 10px 20px 15px 20px;
@@ -204,7 +204,7 @@
 /* DD5 v3 */
 
 #chat-log .message .message-header .title {
-    color: var(--main-text-light-color) !important; /*92887f*/
+    color: #d4d1c3
     text-shadow: var(--text-shadow);
     font-size: 16px;
     font-weight: 600;
@@ -213,12 +213,12 @@
 #chat-log .message .message-header .subtitle,
 #chat-log .message .message-header time,
 #chat-log .message .message-header .message-metadata {
-    color: var(--main-text-very-light-color);
+    color: #d4d1c3;
     text-shadow: var(--text-shadow);
 }
 #chat-log .message .message-header .flavor-text,
 #chat-log .message .message-header .whisper-to {
-    color: var(--main-text-light-color) !important; /*8e8073*/
+    color: #d4d1c3
     text-shadow: var(--text-shadow);
 }
 #chat-log .message .message-header .message-sender img {
@@ -226,7 +226,7 @@
 }
 
 .chat-message .message-content {
-    color: var(--main-text-light-color) !important; /*8e8073*/
+    color: #d4d1c3
     text-shadow: var(--text-shadow);
 }
 
@@ -238,33 +238,6 @@
 
 .chat-message .message-content footer.nue {
     border-top: 2px groove var(--color-underline-header);
-}
-
-/* DD5 v3 End */
-
-.chat-message .table-draw .table-description {
-    border-top: 1px solid var(--monks-border-color);
-    color: var(--main-text-light-color)
-}
-
-.chat-message .table-draw .table-results .table-result img.result-image {
-    filter: invert(75%);
-}
-
-#chat ::-webkit-scrollbar-thumb {
-    outline: none;
-    border-radius: 0px;
-    border: none;
-    background: #251f1d;
-}
-
-#chat ::-webkit-scrollbar-track {
-    background: #181413;
-}
-
-.dice-roll .dice-formula, .dice-roll .dice-total {
-    border: none;
-    box-shadow: none;
 }
 
 /* CONTROLS */
