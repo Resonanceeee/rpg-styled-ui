@@ -670,7 +670,6 @@ button#roll-hd:hover::before {
 }
 
 #nav-toggle::after {
-    position: absolute;
     content: " ";
     width: 50px;
     height: 50px;
@@ -684,13 +683,11 @@ button#roll-hd:hover::before {
 
 
 #navigation #scene-list .scene.nav-item {
-    position: relative;
     color: var(--main-text-light-color);
     font-weight: 600;
 }
 
 #navigation #scene-list .scene.nav-item::before {
-    position: absolute;
     content: " ";
     width: 120%;
     height: 130%;
