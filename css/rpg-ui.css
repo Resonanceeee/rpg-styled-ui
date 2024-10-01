@@ -683,12 +683,6 @@ button#roll-hd:hover::before {
     margin: 0 14px 8px 0;
 }
 
-#navigation #scene-list.vertical .scene.nav-item {
-    float: none;
-    width: fit-content;
-    display: table;
-}
-
 #navigation #scene-list .scene.nav-item {
     border: none;
     background: none;
