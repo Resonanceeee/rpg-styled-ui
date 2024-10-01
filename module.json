@@ -6,7 +6,7 @@
   "version": "v1.2.1",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
+    "verified": "12",
     "maximum": "12"
   },
   "relationships": {
@@ -57,11 +57,11 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/https://github.com/Resonanceeee/rpg-styled-ui/main/module.json",
-  "download": "https://github.com/Xbozon/rpg-styled-ui/archive/refs/tags/v1.2.1.zip",
+  "download": "https://github.com/Resonanceeee/rpg-styled-ui/archive/refs/heads/main.zip",
 
   "authors": [
     {
-      "name": "Xbozon",
+      "name": "Xbozon for Foundry V12",
       "flags": {}
     }
   ]
